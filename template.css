@@ -1,0 +1,52 @@
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background: linear-gradient(orange, red);
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#page_title {
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	text-shadow: 1px 1px 1px black;
+	color: grey;
+	background-color: snow;
+	font-size: 2em;
+	letter-spacing: .2em;
+}
+
+.top_nav_item {
+	margin: 10px;
+	color: midnightblue;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.top_nav_item:hover {
+	margin: 10px;
+	border-bottom: 3px solid midnightblue;
+	text-decoration: none;
+}
+
+#current_page {
+	font-weight: bold;
+	color: black
+}
+
+
+#logo {
+	alignment-baseline: right;
+	width: 10em;
+	float: right;
+	margin-top: -1.3em;
+	}
+
+#paragraph {
+	background-color: snow;
+	top-margin: 25px;
+	padding: 20px;
+	height: 30em;
+	font-size: 1.3em;
+	border-radius: 10px
+}

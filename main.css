@@ -1,0 +1,54 @@
+body {
+	font-family: 'Shadows Into Light', cursive;
+	background-image: url(images/space.jpg);
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: cover;
+
+}
+
+
+
+#name {
+text-align: center;
+background: snow;
+border-radius: 2em;
+}
+
+.facts {
+background: rgb(255,255,255,.7);
+margin-left: 8em;
+width: 27em;
+padding: 2px;
+font-size: 1.8em;
+margin-top: 5em;
+height: 5em;
+}
+
+#links {
+	margin: 10px;
+	color: midnightblue;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10em;
+}
+
+.top_nav_item {
+margin: 3em;
+	background: rgb(255,255,255, .7);
+	padding: 3px;
+	text-decoration: none;
+	color: black;
+	border-radius: 3px;
+}
+
+.top_nav_item:hover {
+	background: black;
+	color: white;
+}
+
+#current_page{
+	font-weight: bold;
+	color: black
+}
